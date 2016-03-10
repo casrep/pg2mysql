@@ -3,6 +3,7 @@
 require 'active_record'
 require 'mysql2'
 require 'pg'
+require 'yaml'
 
 dbconfig = YAML.load(File.read('config/database.yml'))
 
